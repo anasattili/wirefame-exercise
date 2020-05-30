@@ -1,0 +1,119 @@
+
+
+body{
+    text-align: center;
+}
+header nav{
+    position: relative;
+    background-color: darkgray;
+    border: blue 2px solid;
+ 
+    
+    
+}
+
+ header nav img{
+  border: 2px solid blue;
+position: absolute;
+left: 170px;
+  top: 18px; 
+
+       
+} 
+
+header nav ul li{
+    
+     display: inline-block;
+    margin-left: 100px;
+    margin-bottom: 40px;
+    color: yellow;
+   
+    
+   
+}
+
+ main div{
+  position: relative;
+ 
+} 
+main img {
+    margin-right: 25px;
+    margin-top: 30px;
+    border: 2px solid red;
+}
+main div ul li{
+     width: 320px;
+height: 320px; 
+      margin-right: 200px;
+    display: inline-block;
+    padding-left: 250 px;
+    margin-bottom: 100px;
+    
+    
+
+}
+    
+ 
+    
+main div ul li p{
+position: absolute;
+    bottom: 355px;
+  left: 680px;  
+width: 360px;
+height: 350px;
+ overflow: scroll;
+  margin-bottom: 100px;
+ text-align: left;
+ font-family: Arial, Helvetica, sans-serif;
+ color: fuchsia
+ 
+}
+
+
+button{
+    position: absolute;
+    bottom: 400px;
+  left: 680px;  
+    
+    box-shadow: 0px 10px 14px -7px #276873;
+	background:linear-gradient(to bottom, #dae7eb 5%, #d1e3e6 100%);
+	background-color:#dae7eb;
+	border-radius:8px;
+	 display:inline-block; 
+	cursor:pointer;
+	color:#000000;
+	font-family:Arial;
+	font-size:20px;
+	font-weight:bold;
+	padding:13px 32px;
+	text-decoration:none;
+    text-shadow:0px 1px 0px #3d768a;
+    
+}
+button:hover{
+    transition: 350ms;
+    background:linear-gradient(to bottom,yellow 5% , yellow 100%);
+	background-color:yellow;
+}
+
+button:active {
+	position:relative;
+	top:1px;
+}
+footer div{
+  
+  
+    height: 200px;
+    background-color: darkgray;
+    clear: both;
+    position: relative;
+    margin-top: -400px;  
+    background-color: green
+    
+
+}
+
+
+
+
+
